@@ -73,12 +73,12 @@ class AssistenPython(object):
 				"F",
 				 qos=0,
 				 retain=False,
-				 hostname="54.227.205.125",
-				 port=10515,
+				 hostname="",
+				 port=,
 				 client_id="",
 				 keepalive=60,
 				 will=None,
-				 auth={'username':"placa1", 'password':"12345678"}, tls=None,
+				 auth={'username':"", 'password':""}, tls=None,
 				 )
 			return 'lámpara apagada'
 		elif possible_inputs[0] in text and possible_inputs[2] in text:
@@ -86,12 +86,12 @@ class AssistenPython(object):
 				"N",
 				 qos=0,
 				 retain=False,
-				 hostname="54.227.205.125",
-				 port=10515,
+				 hostname="",
+				 port=,
 				 client_id="",
 				 keepalive=60,
 				 will=None,
-				 auth={'username':"placa1", 'password':"12345678"}, tls=None,
+				 auth={'username':"", 'password':""}, tls=None,
 				 )
 			    return 'lámpara encendida'
 		return ''
